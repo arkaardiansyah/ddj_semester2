@@ -1,0 +1,18 @@
+x = 8
+y = 5
+z = "SMK Medikacom"
+p = False
+q = True
+
+print(x)
+print(y)
+print(z)
+print(p)
+print(q)
+
+print("cek tipe data")
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(p))
+print(type(q))
