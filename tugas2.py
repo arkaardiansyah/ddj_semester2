@@ -1,9 +1,9 @@
-x = 8
-y = 2
-
-if (x > y):
-    print("bilangan pertama lebih besar dari pada bilangan kedua")
-elif(x < y):
-    print("bilangan kedua lebih besar dari pada bilangan pertama")
-else:
-    print("bilangan tersebut sama")
+for i in range(1,21):
+    if i % 3== 0 and i % 5==0:
+        print("Fizzfuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Fuzz")
+    else:
+        print(i)

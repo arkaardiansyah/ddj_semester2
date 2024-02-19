@@ -1,8 +1,5 @@
-x = 5
-
-if (x > 0):
-    print("bilanagan tersebut adalah positif")
-elif(x < 0):
-    print("bilangan tersebut adalah negatif")
+for i in range(1,21):
+    if(i /2 ==0):
+            print(i,"bilangan genap")
 else:
-    print("bilangan tersebut adalah nol")
+    print(i,"bilangan ganjil")
