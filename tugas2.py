@@ -1,9 +1,13 @@
-for i in range(1,21):
-    if i % 3== 0 and i % 5==0:
-        print("Fizzfuzz")
-    elif i % 3 == 0:
-        print("Fizz")
-    elif i % 5 == 0:
-        print("Fuzz")
-    else:
-        print(i)
+data_siswa = [
+     {"1":85},
+     {"2":90},
+     {"3":78},
+     {"4":92},
+     {"5":88},
+]
+
+total_nilai= 0
+for nilai in nilai_siswa():
+    total_nilai += nilai
+
+print("jumlah total nilai semua siswa adalah:", total_nilai)    

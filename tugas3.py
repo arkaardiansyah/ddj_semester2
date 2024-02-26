@@ -1,12 +1,13 @@
-data_penjualan = [
-     {"produk":"baju","jumlah":20},
-     {"produk":"celana","jumlah":15},
-     {"produk":"tas","jumlah":10},
-     {"produk":"sepatu","jumlah":25},
+belanja = [
+    {"buah":"apel", "harga":5000*10},
+    {"buah":"nanas", "harga":3000*5},
+    {"buah":"pepaya", "harga":7000*7},
+    {"buah":"pisang", "harga":2000*20},
+    {"buah":"semangka", "harga":15000*1}
 ]
 
-total_penjualan = 0
-for data in data_penjualan:
-    total_penjualan += data ["jumlah"]
+total_belanjaan = 0
+for item in belanja:
+    total_belanjaan += item["harga"]
 
-print("Total penjualan", total_penjualan)    
+print("total belanja : ", total_belanjaan)
